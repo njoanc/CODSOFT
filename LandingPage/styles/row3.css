@@ -1,0 +1,66 @@
+.row3 {
+    background-image: url("/images/john-towner-3Kv48NS4WUU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 40vh;
+}
+
+.background {
+    flex: 1;
+    display: flex;
+    margin-left: 150px;
+    width: 70%;
+}
+
+h3 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 -15px 2px #f6eded;
+}
+
+p {
+    color: white;
+
+}
+
+.creative {
+    margin-top: 100px;
+    letter-spacing: 5px;
+    font-family: serif;
+    /* text-shadow: 0 -10px 2px #f6eded; */
+
+}
+
+.digital {
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 150px;
+    margin-left: -220px;
+    text-shadow: 260px 0 2px #f6eded;
+}
+
+.lorem {
+    position: relative;
+    color: white;
+    margin-top: 200px;
+    margin-left: -330px;
+
+}
+
+.readMoreButton {
+    padding: 4px 7px 4px 7px;
+    border-radius: 30px 30px 30px;
+    background: linear-gradient(to right, #ebc27f 10%, #e5bde2 90%);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 250px;
+    margin-left: -650px;
+    box-shadow: 10px 0 5px -2px #888;
+
+}
