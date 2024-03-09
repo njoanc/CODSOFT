@@ -1,0 +1,50 @@
+.row4 {
+    width: 100%;
+    height: 13vh;
+    background: linear-gradient(to right, #ebc27f 10%, #d0128a 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+    height: 13vh;
+    margin-left: 10px;
+}
+
+
+:root {
+    --common-margin: 50px;
+}
+
+#column1 {
+    margin-left: calc(var(--common-margin) * -2);
+}
+
+#column2 {
+    margin-left: calc(var(--common-margin) * -1);
+}
+
+
+#column3 {
+    margin-right: calc(var(--common-margin) * 2)
+}
+
+.icon1 {
+    margin-top: 17px;
+
+}
+
+.title {
+    margin-top: -110px;
+    margin-left: 220px;
+    color: white;
+}
+
+.description {
+    padding-top: 12px;
+    margin-left: 180px;
+}
