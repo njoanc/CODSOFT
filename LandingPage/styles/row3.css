@@ -42,7 +42,6 @@ p {
     font-family: serif;
     font-size: 30px;
     margin-left: 0.5px;
-    /* text-shadow: 0 -10px 2px #f6eded; */
 
 }
 
@@ -86,7 +85,7 @@ p {
 .readMoreButton {
     padding: 4px 7px 4px 7px;
     border-radius: 30px 30px 30px;
-    background: linear-gradient(to right, #f5b733 5%, #e226d3 95%);
+    background: linear-gradient(to right, #f5b733 5%, #d0128a 95%);
     color: white;
     cursor: pointer;
     font-size: 9px;
