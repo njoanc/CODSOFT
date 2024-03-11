@@ -1,6 +1,6 @@
 :root {
     --primary-color: #ebc27f;
-    --secondary-color: #d0128a;
+    --secondary-color: #d0128a 90%;
     --text-color: white;
     --button-hover-color: #f08221;
     --button-hover-border-color: #e7900d;
@@ -55,4 +55,28 @@
 .button:hover {
     background-color: var(--button-hover-color);
     border-color: var(--button-hover-border-color);
+}
+
+.search {
+    position: relative;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.search-toggle {
+    display: none;
+}
+
+.search-box {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.search-toggle:checked+.search-box {
+    visibility: visible;
 }

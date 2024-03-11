@@ -1,22 +1,30 @@
+:root {
+    --main-color: #f5b733;
+    --secondary-color: #d0128a;
+    --border-color: rgba(238, 176, 176, 0.5);
+    --border-gradient: linear-gradient(to right, orange, pink);
+    --padding: 4px 7px;
+    --border-radius: 30px;
+    --font-size: 9px;
+}
+
 .row5 {
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     flex-direction: row;
-    width: 100%;
-
 }
 
 .aboutus {
     flex: 1;
-    margin-left: 210px;
-    margin-top: 40px;
+    margin: 40px 0 0 210px;
     display: inline-block;
+    margin-left: 150px;
 }
 
 .overview {
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin: 10px 0 0 5px;
+
 }
 
 #paragraphe {
@@ -29,20 +37,18 @@
 }
 
 .readMore {
-    padding: 4px 7px 4px 7px;
-    border-radius: 30px 30px 30px;
-    background: linear-gradient(to right, #f5b733 5%, #e226d3 95%);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    background: linear-gradient(to right, var(--main-color) 5%, var(--secondary-color) 95%);
     color: white;
     cursor: pointer;
-    font-size: 9px;
+    font-size: var(--font-size);
     margin-top: 20px;
     height: 30px;
     width: 80px;
     position: absolute;
-    border: rgba(238, 176, 176, 0.5);
-
+    border: var(--border-color);
 }
-
 
 .aboutUsImage {
     height: 230px;
@@ -51,19 +57,18 @@
     position: absolute;
     z-index: 1;
     clip-path: circle(50% at center);
+    margin-top: -30px;
 }
 
 .rectangle {
     width: 280px;
-    height: 50px;
+    height: 44px;
     background-color: transparent;
     border: 3px solid transparent;
-    border-image: linear-gradient(to right, orange, pink);
+    border-image: var(--border-gradient);
     border-image-slice: 1;
     background-clip: padding-box;
-    margin-left: 150px;
-    margin-top: 170px;
+    margin: 140px 0 0 150px;
     position: relative;
     z-index: 0;
-
 }

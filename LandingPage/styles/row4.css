@@ -39,9 +39,9 @@
 }
 
 .title {
-    margin-top: -110px;
-    margin-left: 220px;
+    margin: -110px 0 0 220px;
     color: white;
+    font-weight: bold
 }
 
 .description {
